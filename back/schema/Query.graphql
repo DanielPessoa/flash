@@ -1,0 +1,6 @@
+type Query {
+    empresas: [Empresa]
+    funcionarios: [Funcionario]
+    funcPorEmpresa(id: ID!): Empresa 
+}
+

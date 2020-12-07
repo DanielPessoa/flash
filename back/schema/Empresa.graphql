@@ -1,0 +1,16 @@
+type Empresa {
+    id: ID!
+    nome: String
+    Nome_Fantasia: String
+    CNPJ: String
+    benef_escolhidos: String
+    funcionarios: Funcionario
+}
+
+type Funcionario {
+    nomeEmpresa: String
+    nome: String
+    sobrenome: String
+    cpf: String
+    email: String
+}

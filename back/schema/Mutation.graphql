@@ -1,0 +1,20 @@
+type Mutation{
+    addEmpresa(dadosEmpresa: EmpresaInput): Empresa
+}
+
+input EmpresaInput {
+      nome: String
+      Nome_Fantasia: String
+      CNPJ: String
+      benef_escolhidos: String
+      funcionarios: FuncionarioInput
+   }
+
+
+input FuncionarioInput {
+        nomeEmpresa: String
+        nome: String
+        sobrenome: String
+        cpf: String
+        email: String
+   } 
